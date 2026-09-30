@@ -1,21 +1,43 @@
-// Menú para dispositivos móviles
+```javascript
+// ===============================
+// MENÚ RESPONSIVO
+// ===============================
 
 function mostrarMenu() {
-
     const menu = document.querySelector(".navbar");
 
     menu.classList.toggle("active");
-
 }
 
 
-// Mensaje de demostración
+// ===============================
+// BOTONES DE TALENTCOLAB
+// ===============================
 
 function mostrarMensaje() {
-
     alert(
-        "¡Bienvenido a TalentHub!\n\n" +
-        "Esta función formará parte de la aplicación final."
+        "¡Bienvenido a TalentColab!\n\n" +
+        "Aquí podrás conectar tus habilidades " +
+        "con nuevas oportunidades profesionales."
     );
-
 }
+
+
+// ===============================
+// CERRAR MENÚ AL SELECCIONAR UNA OPCIÓN
+// ===============================
+
+const enlaces = document.querySelectorAll(".navbar a");
+
+enlaces.forEach(function(enlace) {
+
+    enlace.addEventListener("click", function() {
+
+        const menu = document.querySelector(".navbar");
+
+        menu.classList.remove("active");
+
+    });
+
+});
+```
