@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TalentHub | Conecta tu talento</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header class="header">
+
+        <div class="logo">
+            <span>Talent</span>Hub
+        </div>
+
+        <nav class="navbar">
+            <a href="#inicio">Inicio</a>
+            <a href="#proyecto">Proyecto</a>
+            <a href="#beneficios">Beneficios</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+        <button class="menu-btn" onclick="mostrarMenu()">☰</button>
+
+    </header>
+
+
+    <!-- CUERPO / HOME -->
+    <main>
+
+        <section id="inicio" class="hero">
+
+            <div class="hero-text">
+
+                <p class="tag">INNOVACIÓN • TECNOLOGÍA • TALENTO</p>
+
+                <h1>
+                    Conecta tu talento con
+                    <span>nuevas oportunidades.</span>
+                </h1>
+
+                <p>
+                    TalentHub es una propuesta de plataforma digital
+                    diseñada para conectar estudiantes y profesionales
+                    de tecnología con empresas que buscan talento.
+                </p>
+
+                <div class="buttons">
+                    <a href="#proyecto" class="btn primary">
+                        Conocer proyecto
+                    </a>
+
+                    <a href="#beneficios" class="btn secondary">
+                        Ver beneficios
+                    </a>
+                </div>
+
+            </div>
+
+
+            <div class="hero-card">
+
+                <div class="card-top">
+                    <span class="status"></span>
+                    Oportunidad encontrada
+                </div>
+
+                <h3>Desarrollador Web Junior</h3>
+
+                <p>Empresa tecnológica</p>
+
+                <div class="skills">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <button onclick="mostrarMensaje()">
+                    Ver oportunidad
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROYECTO -->
+        <section id="proyecto" class="section">
+
+            <div class="section-title">
+                <p class="tag">NUESTRA PROPUESTA</p>
+
+                <h2>
+                    Una forma diferente de
+                    <span>encontrar talento.</span>
+                </h2>
+            </div>
+
+            <div class="project-content">
+
+                <div class="project-image">
+                    <div class="image-content">
+                        <div class="big-icon">TH</div>
+                        <h3>TalentHub</h3>
+                        <p>Talento + Tecnología</p>
+                    </div>
+                </div>
+
+                <div class="project-text">
+
+                    <h3>¿Qué buscamos solucionar?</h3>
+
+                    <p>
+                        Muchos estudiantes y profesionales tienen las
+                        habilidades necesarias para trabajar, pero
+                        tienen dificultades para encontrar oportunidades
+                        adecuadas a su perfil.
+                    </p>
+
+                    <p>
+                        TalentHub propone una plataforma donde los
+                        usuarios puedan crear su perfil, mostrar sus
+                        habilidades y encontrar oportunidades laborales
+                        relacionadas con tecnología.
+                    </p>
+
+                    <ul>
+                        <li>Perfil profesional digital</li>
+                        <li>Búsqueda de oportunidades</li>
+                        <li>Conexión entre empresas y talento</li>
+                        <li>Información centralizada</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- BENEFICIOS -->
+        <section id="beneficios" class="section benefits-section">
+
+            <div class="section-title center">
+
+                <p class="tag">BENEFICIOS</p>
+
+                <h2>
+                    Diseñado para
+                    <span>crecer.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="cards">
+
+                <article class="benefit-card">
+
+                    <div class="icon">01</div>
+
+                    <h3>Para estudiantes</h3>
+
+                    <p>
+                        Permite mostrar proyectos, conocimientos
+                        y habilidades para conseguir nuevas
+                        oportunidades.
+                    </p>
+
+                </article>
+
+
+                <article class="benefit-card">
+
+                    <div class="icon">02</div>
+
+                    <h3>Para empresas</h3>
+
+                    <p>
+                        Facilita la búsqueda de personas con
+                        conocimientos relacionados con sus
+                        necesidades.
+                    </p>
+
+                </article>
+
+
+                <article class="benefit-card">
+
+                    <div class="icon">03</div>
+
+                    <h3>Para el futuro</h3>
+
+                    <p>
+                        Integra tecnología para crear una conexión
+                        más rápida entre talento y oportunidades.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- LLAMADA A LA ACCIÓN -->
+        <section class="cta">
+
+            <div>
+
+                <p class="tag">EL FUTURO DEL TALENTO</p>
+
+                <h2>
+                    Tu siguiente oportunidad
+                    <span>puede comenzar aquí.</span>
+                </h2>
+
+                <p>
+                    Conoce nuestra propuesta y descubre cómo
+                    la tecnología puede facilitar la conexión
+                    entre personas y empresas.
+                </p>
+
+                <button class="btn primary" onclick="mostrarMensaje()">
+                    Comenzar
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- PIE DE PÁGINA -->
+    <footer id="contacto">
+
+        <div class="footer-logo">
+            <span>Talent</span>Hub
+        </div>
+
+        <p>
+            Innovación para conectar talento y oportunidades.
+        </p>
+
+        <div class="footer-line"></div>
+
+        <p class="copyright">
+            © 2026 TalentHub | Producto 1
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
