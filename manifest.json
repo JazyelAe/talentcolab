@@ -1,0 +1,11 @@
+{
+    "name": "TalentColab",
+    "short_name": "TalentColab",
+    "description": "Plataforma digital para conectar talento tecnológico con nuevas oportunidades.",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#050805",
+    "theme_color": "#00ff66",
+    "orientation": "portrait",
+    "lang": "es-MX"
+}
