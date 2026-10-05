@@ -12,20 +12,26 @@
     <!-- Hoja de estilos -->
     <link rel="stylesheet" href="./style.css">
 
-    <!-- Manifest de la aplicación -->
-    <link rel="manifest" href="./manifest.json" type="application/manifest+json">
+    <!-- Manifest de la PWA -->
+    <link
+        rel="manifest"
+        href="./manifest.json"
+        type="application/manifest+json"
+    >
 
     <!-- Color principal de la aplicación -->
     <meta name="theme-color" content="#00ff66">
 
-    <!-- Color para dispositivos Apple -->
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- Configuración para dispositivos Apple -->
+    <meta
+        name="apple-mobile-web-app-status-bar-style"
+        content="black"
+    >
 
 </head>
 
 
 <body>
-
 
     <!-- ================================
          ENCABEZADO
@@ -38,37 +44,32 @@
         </div>
 
 
+        <!-- MENÚ DE NAVEGACIÓN -->
+
         <nav class="navbar">
 
-            <a href="#inicio">
-                Inicio
-            </a>
+            <a href="#inicio">Inicio</a>
 
-            <a href="#proyecto">
-                Nuestra idea
-            </a>
+            <a href="#proyecto">Nuestra idea</a>
 
-            <a href="#beneficios">
-                Ventajas
-            </a>
+            <a href="#beneficios">Ventajas</a>
 
-            <a href="#contacto">
-                Contacto
-            </a>
+            <a href="#contacto">Contacto</a>
 
         </nav>
 
 
+        <!-- BOTÓN DEL MENÚ RESPONSIVO -->
+
         <button
             class="menu-btn"
-            onclick="mostrarMenu()">
-
+            onclick="mostrarMenu()"
+            aria-label="Abrir menú"
+        >
             ☰
-
         </button>
 
     </header>
-
 
 
     <!-- ================================
@@ -82,74 +83,57 @@
              INICIO
         ================================= -->
 
-        <section
-            id="inicio"
-            class="hero">
+        <section id="inicio" class="hero">
 
+
+            <!-- TEXTO PRINCIPAL -->
 
             <div class="hero-text">
 
-
                 <p class="tag">
-
                     TECNOLOGÍA • TALENTO • OPORTUNIDADES
-
                 </p>
 
 
                 <h1>
-
                     Encuentra nuevas oportunidades
-
-                    <span>
-                        para desarrollar tu potencial.
-                    </span>
-
+                    <span>para desarrollar tu potencial.</span>
                 </h1>
 
 
                 <p>
-
-                    TalentColab es una propuesta digital creada
-                    para facilitar el encuentro entre estudiantes,
+                    TalentColab es una propuesta digital creada para
+                    facilitar el encuentro entre estudiantes,
                     profesionales y empresas que buscan nuevas
                     capacidades.
-
                 </p>
 
 
                 <div class="buttons">
 
-
                     <a
                         href="#proyecto"
-                        class="btn primary">
-
+                        class="btn primary"
+                    >
                         Descubrir propuesta
-
                     </a>
 
 
                     <a
                         href="#beneficios"
-                        class="btn secondary">
-
+                        class="btn secondary"
+                    >
                         Conocer ventajas
-
                     </a>
 
-
                 </div>
-
 
             </div>
 
 
-
-            <!-- TARJETA -->
+            <!-- TARJETA DE OPORTUNIDAD -->
 
             <div class="hero-card">
-
 
                 <div class="card-top">
 
@@ -161,53 +145,33 @@
 
 
                 <h3>
-
                     Desarrollador Web Junior
-
                 </h3>
 
 
                 <p>
-
                     Empresa del sector tecnológico
-
                 </p>
 
 
                 <div class="skills">
 
+                    <span>HTML</span>
 
-                    <span>
-                        HTML
-                    </span>
+                    <span>CSS</span>
 
-
-                    <span>
-                        CSS
-                    </span>
-
-
-                    <span>
-                        JavaScript
-                    </span>
-
+                    <span>JavaScript</span>
 
                 </div>
 
 
-                <button
-                    onclick="mostrarMensaje()">
-
+                <button onclick="mostrarMensaje()">
                     Explorar oportunidad
-
                 </button>
-
 
             </div>
 
-
         </section>
-
 
 
         <!-- ================================
@@ -216,32 +180,22 @@
 
         <section
             id="proyecto"
-            class="section">
-
+            class="section"
+        >
 
             <div class="section-title">
 
-
                 <p class="tag">
-
                     NUESTRA IDEA
-
                 </p>
 
 
                 <h2>
-
                     Acercamos el talento a
-
-                    <span>
-                        las oportunidades.
-                    </span>
-
+                    <span>las oportunidades.</span>
                 </h2>
 
-
             </div>
-
 
 
             <div class="project-content">
@@ -251,113 +205,77 @@
 
                 <div class="project-image">
 
-
                     <div class="image-content">
 
-
                         <div class="big-icon">
-
                             TC
-
                         </div>
 
 
                         <h3>
-
                             TalentColab
-
                         </h3>
 
 
                         <p>
-
                             Conectando personas y empresas
-
                         </p>
-
 
                     </div>
 
-
                 </div>
-
 
 
                 <!-- INFORMACIÓN -->
 
                 <div class="project-text">
 
-
                     <h3>
-
                         ¿Qué necesidad atendemos?
-
                     </h3>
 
 
                     <p>
-
-                        Encontrar una oportunidad laboral puede
-                        ser complicado cuando los conocimientos
-                        y habilidades de una persona no tienen
-                        suficiente visibilidad.
-
+                        Encontrar una oportunidad laboral puede ser
+                        complicado cuando los conocimientos y
+                        habilidades de una persona no tienen suficiente
+                        visibilidad.
                     </p>
 
 
                     <p>
-
-                        TalentColab plantea una solución digital
-                        donde los usuarios puedan presentar su
-                        perfil, destacar sus capacidades y
-                        descubrir vacantes relacionadas con
-                        su área profesional.
-
+                        TalentColab plantea una solución digital donde
+                        los usuarios puedan presentar su perfil,
+                        destacar sus capacidades y descubrir vacantes
+                        relacionadas con su área profesional.
                     </p>
 
 
                     <ul>
 
-
                         <li>
-
                             Perfil profesional en línea
-
                         </li>
 
-
                         <li>
-
                             Exploración de vacantes
-
                         </li>
 
-
                         <li>
-
                             Contacto entre empresas y candidatos
-
                         </li>
-
 
                         <li>
-
                             Información organizada en un solo lugar
-
                         </li>
-
 
                     </ul>
 
-
                 </div>
-
 
             </div>
 
-
         </section>
-
 
 
         <!-- ================================
@@ -366,32 +284,22 @@
 
         <section
             id="beneficios"
-            class="section benefits-section">
-
+            class="section benefits-section"
+        >
 
             <div class="section-title center">
 
-
                 <p class="tag">
-
                     PRINCIPALES VENTAJAS
-
                 </p>
 
 
                 <h2>
-
                     Tecnología pensada para
-
-                    <span>
-                        avanzar.
-                    </span>
-
+                    <span>avanzar.</span>
                 </h2>
 
-
             </div>
-
 
 
             <div class="cards">
@@ -401,102 +309,73 @@
 
                 <article class="benefit-card">
 
-
                     <div class="icon">
-
                         01
-
                     </div>
 
 
                     <h3>
-
                         Impulsa estudiantes
-
                     </h3>
 
 
                     <p>
-
                         Ayuda a presentar conocimientos,
                         proyectos y capacidades para acceder
                         a nuevas experiencias profesionales.
-
                     </p>
 
-
                 </article>
-
 
 
                 <!-- BENEFICIO 2 -->
 
                 <article class="benefit-card">
 
-
                     <div class="icon">
-
                         02
-
                     </div>
 
 
                     <h3>
-
                         Apoya a empresas
-
                     </h3>
 
 
                     <p>
-
                         Facilita la identificación de candidatos
                         que cuentan con las habilidades necesarias
                         para diferentes puestos.
-
                     </p>
 
-
                 </article>
-
 
 
                 <!-- BENEFICIO 3 -->
 
                 <article class="benefit-card">
 
-
                     <div class="icon">
-
                         03
-
                     </div>
 
 
                     <h3>
-
                         Construye conexiones
-
                     </h3>
 
 
                     <p>
-
                         Utiliza herramientas digitales para hacer
                         más sencillo el vínculo entre profesionales
                         y organizaciones.
-
                     </p>
-
 
                 </article>
 
-
             </div>
 
-
         </section>
-
 
 
         <!-- ================================
@@ -505,54 +384,38 @@
 
         <section class="cta">
 
-
             <div>
 
-
                 <p class="tag">
-
                     NUEVAS POSIBILIDADES
-
                 </p>
 
 
                 <h2>
-
                     El próximo paso de tu carrera
-
-                    <span>
-                        puede empezar aquí.
-                    </span>
-
+                    <span>puede empezar aquí.</span>
                 </h2>
 
 
                 <p>
-
                     Descubre una nueva manera de presentar tus
                     capacidades y encontrar oportunidades dentro
                     del mundo tecnológico.
-
                 </p>
 
 
                 <button
                     class="btn primary"
-                    onclick="mostrarMensaje()">
-
+                    onclick="mostrarMensaje()"
+                >
                     Conocer TalentColab
-
                 </button>
-
 
             </div>
 
-
         </section>
 
-
     </main>
-
 
 
     <!-- ================================
@@ -564,18 +427,14 @@
 
         <div class="footer-logo">
 
-            <span>
-                Talent
-            </span>Colab
+            <span>Talent</span>Colab
 
         </div>
 
 
         <p>
-
             Tecnología que conecta capacidades
             con oportunidades.
-
         </p>
 
 
@@ -592,13 +451,11 @@
     </footer>
 
 
-
     <!-- ================================
          JAVASCRIPT
     ================================= -->
 
     <script src="./script.js"></script>
-
 
 </body>
 
