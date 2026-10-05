@@ -1,4 +1,3 @@
-```javascript
 // ===============================
 // MENÚ RESPONSIVO
 // ===============================
@@ -40,4 +39,38 @@ enlaces.forEach(function(enlace) {
     });
 
 });
-```
+
+
+// ===============================
+// REGISTRO DEL SERVICE WORKER
+// ===============================
+
+// Verifica si el navegador es compatible con Service Workers.
+
+if ("serviceWorker" in navigator) {
+
+    window.addEventListener("load", function() {
+
+        navigator.serviceWorker
+            .register("./serviceworker.js")
+
+            .then(function() {
+
+                console.log(
+                    "Service Worker registrado correctamente."
+                );
+
+            })
+
+            .catch(function(error) {
+
+                console.error(
+                    "Error al registrar el Service Worker:",
+                    error
+                );
+
+            });
+
+    });
+
+}
